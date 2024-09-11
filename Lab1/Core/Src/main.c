@@ -103,7 +103,7 @@ int main(void)
                   switch (countRed)
                   {
 
-                      case 2:
+                      case 1 ... 2:
                       {
                     	  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, RESET);
                           HAL_GPIO_WritePin(GPIOA, LED_YELLOW_Pin, SET);
@@ -114,7 +114,7 @@ int main(void)
                           HAL_GPIO_WritePin(GPIOA, LED_GREEN1_Pin, SET);
                           break;
                       }
-                      case 5:
+                      case 3 ... 5:
                       {
                     	  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, RESET);
                     	  HAL_GPIO_WritePin(GPIOA, LED_YELLOW_Pin, SET);
@@ -142,7 +142,7 @@ int main(void)
                   switch (countRed)
                   {
 
-                      case 2:
+                      case 1 ... 2:
                       {
                     	  HAL_GPIO_WritePin(GPIOA, LED_RED1_Pin, RESET);
                           HAL_GPIO_WritePin(GPIOA, LED_YELLOW1_Pin, SET);
@@ -153,7 +153,7 @@ int main(void)
                           HAL_GPIO_WritePin(GPIOA, LED_GREEN_Pin, SET);
                           break;
                       }
-					  case 5:
+					  case 3 ... 5:
 					  {
 						  HAL_GPIO_WritePin(GPIOA, LED_RED1_Pin, RESET);
 						  HAL_GPIO_WritePin(GPIOA, LED_YELLOW1_Pin, SET);
