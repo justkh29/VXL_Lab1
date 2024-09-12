@@ -102,14 +102,19 @@ int main(void)
   {
 	  HAL_GPIO_WritePin(GPIOA, led_pin[num], RESET);
   }
+  void clearNumberOnClock(int num)
+  {
+	  HAL_GPIO_WritePin(GPIOA, led_pin[num], SET);
+  }
   int count = 0;
   while (1)
   {
+	  clearAllClock();
 	  setNumberOnClock(4);
 	  setNumberOnClock(11);
 	  if (count >= 1)
 	  {
-		  clearAllClock();
+		  clearNumberOnClock(4);
 		  count = 0;
 	  }
 	  else count++;
