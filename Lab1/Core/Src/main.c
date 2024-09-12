@@ -129,9 +129,6 @@ int main(void)
 		  hour = 0;
 	  }
 	  clearAllClock();
-	  setNumberOnClock(second/5);
-	  setNumberOnClock(minute/5);
-	  setNumberOnClock(hour);
 	  second++;
 
 	  HAL_Delay(1000);
