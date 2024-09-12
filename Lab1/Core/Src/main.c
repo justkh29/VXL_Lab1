@@ -133,62 +133,62 @@ int main(void)
 	  {
 	  	  case 0 ... 4:
 		  {
-	  		  setNumberOnClock(0);
+	  		  setNumberOnClock(11);
 	  		  break;
 		  }
 	  	  case 5 ... 9:
 		  {
-	  		  setNumberOnClock(1);
+	  		  setNumberOnClock(0);
 	  		  break;
 		  }
 	  	  case 10 ... 14:
 		  {
-			  setNumberOnClock(2);
+			  setNumberOnClock(1);
 	  		  break;
 		  }
 		  case 15 ... 19:
 		  {
-			  setNumberOnClock(3);
+			  setNumberOnClock(2);
 	  		  break;
 		  }
 	  	  case 20 ... 24:
 		  {
-	  		  setNumberOnClock(4);
+	  		  setNumberOnClock(3);
 	  		  break;
 		  }
 	  	  case 25 ... 29:
 		  {
-	  		  setNumberOnClock(5);
+	  		  setNumberOnClock(4);
 	  		  break;
 		  }
 	  	  case 30 ... 34:
 		  {
-			  setNumberOnClock(6);
+			  setNumberOnClock(5);
 	  		  break;
 		  }
 		  case 35 ... 39:
 		  {
-			  setNumberOnClock(7);
+			  setNumberOnClock(6);
 	  		  break;
 		  }
 	  	  case 40 ... 44:
 		  {
-	  		  setNumberOnClock(8);
+	  		  setNumberOnClock(7);
 	  		  break;
 		  }
 	  	  case 45 ... 49:
 		  {
-	  		  setNumberOnClock(9);
+	  		  setNumberOnClock(8);
 	  		  break;
 		  }
 	  	  case 50 ... 54:
 		  {
-			  setNumberOnClock(10);
+			  setNumberOnClock(9);
 	  		  break;
 		  }
 		  case 55 ... 59:
 		  {
-			  setNumberOnClock(11);
+			  setNumberOnClock(10);
 	  		  break;
 		  }
 	  }
@@ -197,62 +197,62 @@ int main(void)
 	  {
 	  	  case 0 ... 4:
 		  {
-	  		  setNumberOnClock(0);
+	  		  setNumberOnClock(11);
 	  		  break;
 		  }
 	  	  case 5 ... 9:
 		  {
-	  		  setNumberOnClock(1);
+	  		  setNumberOnClock(0);
 	  		  break;
 		  }
 	  	  case 10 ... 14:
 		  {
-			  setNumberOnClock(2);
+			  setNumberOnClock(1);
 	  		  break;
 		  }
 		  case 15 ... 19:
 		  {
-			  setNumberOnClock(3);
+			  setNumberOnClock(2);
 	  		  break;
 		  }
 	  	  case 20 ... 24:
 		  {
-	  		  setNumberOnClock(4);
+	  		  setNumberOnClock(3);
 	  		  break;
 		  }
 	  	  case 25 ... 29:
 		  {
-	  		  setNumberOnClock(5);
+	  		  setNumberOnClock(4);
 	  		  break;
 		  }
 	  	  case 30 ... 34:
 		  {
-			  setNumberOnClock(6);
+			  setNumberOnClock(5);
 	  		  break;
 		  }
 		  case 35 ... 39:
 		  {
-			  setNumberOnClock(7);
+			  setNumberOnClock(6);
 	  		  break;
 		  }
 	  	  case 40 ... 44:
 		  {
-	  		  setNumberOnClock(8);
+	  		  setNumberOnClock(7);
 	  		  break;
 		  }
 	  	  case 45 ... 49:
 		  {
-	  		  setNumberOnClock(9);
+	  		  setNumberOnClock(8);
 	  		  break;
 		  }
 	  	  case 50 ... 54:
 		  {
-			  setNumberOnClock(10);
+			  setNumberOnClock(9);
 	  		  break;
 		  }
 		  case 55 ... 59:
 		  {
-			  setNumberOnClock(11);
+			  setNumberOnClock(10);
 	  		  break;
 		  }
 	  }
@@ -261,62 +261,62 @@ int main(void)
 	  {
 	  	  case 0:
 	  	  {
-			  setNumberOnClock(0);
+			  setNumberOnClock(11);
 	  		  break;
 	  	  }
 	  	  case 1:
 	  	  {
-			  setNumberOnClock(1);
+			  setNumberOnClock(0);
 	  		  break;
 	  	  }
 	  	  case 2:
 	  	  {
-			  setNumberOnClock(2);
+			  setNumberOnClock(1);
 	  		  break;
 	  	  }
 	  	  case 3:
 	  	  {
-			  setNumberOnClock(3);
+			  setNumberOnClock(2);
 	  		  break;
 	  	  }
 	  	  case 4:
 	  	  {
-			  setNumberOnClock(4);
+			  setNumberOnClock(3);
 	  		  break;
 	  	  }
 	  	  case 5:
 	  	  {
-			  setNumberOnClock(5);
+			  setNumberOnClock(4);
 	  		  break;
 	  	  }
 	  	  case 6:
 	  	  {
-			  setNumberOnClock(6);
+			  setNumberOnClock(5);
 	  		  break;
 	  	  }
 	  	  case 7:
 	  	  {
-			  setNumberOnClock(7);
+			  setNumberOnClock(6);
 	  		  break;
 	  	  }
 	  	  case 8:
 	  	  {
-			  setNumberOnClock(8);
+			  setNumberOnClock(7);
 	  		  break;
 	  	  }
 	  	  case 9:
 	  	  {
-			  setNumberOnClock(9);
+			  setNumberOnClock(8);
 	  		  break;
 	  	  }
 	  	  case 10:
 	  	  {
-			  setNumberOnClock(10);
+			  setNumberOnClock(9);
 	  		  break;
 	  	  }
 	  	  case 11:
 	  	  {
-			  setNumberOnClock(11);
+			  setNumberOnClock(10);
 	  		  break;
 	  	  }
 	  }

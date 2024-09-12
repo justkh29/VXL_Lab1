@@ -256,120 +256,120 @@ int main(void)
 	  {
 	  	  case 0 ... 4:
 		  {
-	  		  setNumberOnClock(0);
+	  		  setNumberOnClock(11);
  80002e4:	463b      	mov	r3, r7
  80002e6:	469c      	mov	ip, r3
- 80002e8:	2000      	movs	r0, #0
+ 80002e8:	200b      	movs	r0, #11
  80002ea:	f000 f97b 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80002ee:	e041      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 5 ... 9:
 		  {
-	  		  setNumberOnClock(1);
+	  		  setNumberOnClock(0);
  80002f0:	463b      	mov	r3, r7
  80002f2:	469c      	mov	ip, r3
- 80002f4:	2001      	movs	r0, #1
+ 80002f4:	2000      	movs	r0, #0
  80002f6:	f000 f975 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80002fa:	e03b      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 10 ... 14:
 		  {
-			  setNumberOnClock(2);
+			  setNumberOnClock(1);
  80002fc:	463b      	mov	r3, r7
  80002fe:	469c      	mov	ip, r3
- 8000300:	2002      	movs	r0, #2
+ 8000300:	2001      	movs	r0, #1
  8000302:	f000 f96f 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000306:	e035      	b.n	8000374 <main+0x204>
 		  }
 		  case 15 ... 19:
 		  {
-			  setNumberOnClock(3);
+			  setNumberOnClock(2);
  8000308:	463b      	mov	r3, r7
  800030a:	469c      	mov	ip, r3
- 800030c:	2003      	movs	r0, #3
+ 800030c:	2002      	movs	r0, #2
  800030e:	f000 f969 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000312:	e02f      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 20 ... 24:
 		  {
-	  		  setNumberOnClock(4);
+	  		  setNumberOnClock(3);
  8000314:	463b      	mov	r3, r7
  8000316:	469c      	mov	ip, r3
- 8000318:	2004      	movs	r0, #4
+ 8000318:	2003      	movs	r0, #3
  800031a:	f000 f963 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800031e:	e029      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 25 ... 29:
 		  {
-	  		  setNumberOnClock(5);
+	  		  setNumberOnClock(4);
  8000320:	463b      	mov	r3, r7
  8000322:	469c      	mov	ip, r3
- 8000324:	2005      	movs	r0, #5
+ 8000324:	2004      	movs	r0, #4
  8000326:	f000 f95d 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800032a:	e023      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 30 ... 34:
 		  {
-			  setNumberOnClock(6);
+			  setNumberOnClock(5);
  800032c:	463b      	mov	r3, r7
  800032e:	469c      	mov	ip, r3
- 8000330:	2006      	movs	r0, #6
+ 8000330:	2005      	movs	r0, #5
  8000332:	f000 f957 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000336:	e01d      	b.n	8000374 <main+0x204>
 		  }
 		  case 35 ... 39:
 		  {
-			  setNumberOnClock(7);
+			  setNumberOnClock(6);
  8000338:	463b      	mov	r3, r7
  800033a:	469c      	mov	ip, r3
- 800033c:	2007      	movs	r0, #7
+ 800033c:	2006      	movs	r0, #6
  800033e:	f000 f951 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000342:	e017      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 40 ... 44:
 		  {
-	  		  setNumberOnClock(8);
+	  		  setNumberOnClock(7);
  8000344:	463b      	mov	r3, r7
  8000346:	469c      	mov	ip, r3
- 8000348:	2008      	movs	r0, #8
+ 8000348:	2007      	movs	r0, #7
  800034a:	f000 f94b 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800034e:	e011      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 45 ... 49:
 		  {
-	  		  setNumberOnClock(9);
+	  		  setNumberOnClock(8);
  8000350:	463b      	mov	r3, r7
  8000352:	469c      	mov	ip, r3
- 8000354:	2009      	movs	r0, #9
+ 8000354:	2008      	movs	r0, #8
  8000356:	f000 f945 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800035a:	e00b      	b.n	8000374 <main+0x204>
 		  }
 	  	  case 50 ... 54:
 		  {
-			  setNumberOnClock(10);
+			  setNumberOnClock(9);
  800035c:	463b      	mov	r3, r7
  800035e:	469c      	mov	ip, r3
- 8000360:	200a      	movs	r0, #10
+ 8000360:	2009      	movs	r0, #9
  8000362:	f000 f93f 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000366:	e005      	b.n	8000374 <main+0x204>
 		  }
 		  case 55 ... 59:
 		  {
-			  setNumberOnClock(11);
+			  setNumberOnClock(10);
  8000368:	463b      	mov	r3, r7
  800036a:	469c      	mov	ip, r3
- 800036c:	200b      	movs	r0, #11
+ 800036c:	200a      	movs	r0, #10
  800036e:	f000 f939 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000372:	bf00      	nop
@@ -444,110 +444,110 @@ int main(void)
 	  {
 	  	  case 0 ... 4:
 		  {
-	  		  setNumberOnClock(0);
+	  		  setNumberOnClock(11);
  8000474:	463b      	mov	r3, r7
  8000476:	469c      	mov	ip, r3
- 8000478:	2000      	movs	r0, #0
+ 8000478:	200b      	movs	r0, #11
  800047a:	f000 f8b3 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800047e:	e043      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 5 ... 9:
 		  {
-	  		  setNumberOnClock(1);
+	  		  setNumberOnClock(0);
  8000480:	463b      	mov	r3, r7
  8000482:	469c      	mov	ip, r3
- 8000484:	2001      	movs	r0, #1
+ 8000484:	2000      	movs	r0, #0
  8000486:	f000 f8ad 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800048a:	e03d      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 10 ... 14:
 		  {
-			  setNumberOnClock(2);
+			  setNumberOnClock(1);
  800048c:	463b      	mov	r3, r7
  800048e:	469c      	mov	ip, r3
- 8000490:	2002      	movs	r0, #2
+ 8000490:	2001      	movs	r0, #1
  8000492:	f000 f8a7 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000496:	e037      	b.n	8000508 <main+0x398>
 		  }
 		  case 15 ... 19:
 		  {
-			  setNumberOnClock(3);
+			  setNumberOnClock(2);
  8000498:	463b      	mov	r3, r7
  800049a:	469c      	mov	ip, r3
- 800049c:	2003      	movs	r0, #3
+ 800049c:	2002      	movs	r0, #2
  800049e:	f000 f8a1 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004a2:	e031      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 20 ... 24:
 		  {
-	  		  setNumberOnClock(4);
+	  		  setNumberOnClock(3);
  80004a4:	463b      	mov	r3, r7
  80004a6:	469c      	mov	ip, r3
- 80004a8:	2004      	movs	r0, #4
+ 80004a8:	2003      	movs	r0, #3
  80004aa:	f000 f89b 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004ae:	e02b      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 25 ... 29:
 		  {
-	  		  setNumberOnClock(5);
+	  		  setNumberOnClock(4);
  80004b0:	463b      	mov	r3, r7
  80004b2:	469c      	mov	ip, r3
- 80004b4:	2005      	movs	r0, #5
+ 80004b4:	2004      	movs	r0, #4
  80004b6:	f000 f895 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004ba:	e025      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 30 ... 34:
 		  {
-			  setNumberOnClock(6);
+			  setNumberOnClock(5);
  80004bc:	463b      	mov	r3, r7
  80004be:	469c      	mov	ip, r3
- 80004c0:	2006      	movs	r0, #6
+ 80004c0:	2005      	movs	r0, #5
  80004c2:	f000 f88f 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004c6:	e01f      	b.n	8000508 <main+0x398>
 		  }
 		  case 35 ... 39:
 		  {
-			  setNumberOnClock(7);
+			  setNumberOnClock(6);
  80004c8:	463b      	mov	r3, r7
  80004ca:	469c      	mov	ip, r3
- 80004cc:	2007      	movs	r0, #7
+ 80004cc:	2006      	movs	r0, #6
  80004ce:	f000 f889 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004d2:	e019      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 40 ... 44:
 		  {
-	  		  setNumberOnClock(8);
+	  		  setNumberOnClock(7);
  80004d4:	463b      	mov	r3, r7
  80004d6:	469c      	mov	ip, r3
- 80004d8:	2008      	movs	r0, #8
+ 80004d8:	2007      	movs	r0, #7
  80004da:	f000 f883 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004de:	e013      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 45 ... 49:
 		  {
-	  		  setNumberOnClock(9);
+	  		  setNumberOnClock(8);
  80004e0:	463b      	mov	r3, r7
  80004e2:	469c      	mov	ip, r3
- 80004e4:	2009      	movs	r0, #9
+ 80004e4:	2008      	movs	r0, #8
  80004e6:	f000 f87d 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004ea:	e00d      	b.n	8000508 <main+0x398>
 		  }
 	  	  case 50 ... 54:
 		  {
-			  setNumberOnClock(10);
+			  setNumberOnClock(9);
  80004ec:	463b      	mov	r3, r7
  80004ee:	469c      	mov	ip, r3
- 80004f0:	200a      	movs	r0, #10
+ 80004f0:	2009      	movs	r0, #9
  80004f2:	f000 f877 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80004f6:	e007      	b.n	8000508 <main+0x398>
@@ -555,10 +555,10 @@ int main(void)
 		  }
 		  case 55 ... 59:
 		  {
-			  setNumberOnClock(11);
+			  setNumberOnClock(10);
  80004fc:	463b      	mov	r3, r7
  80004fe:	469c      	mov	ip, r3
- 8000500:	200b      	movs	r0, #11
+ 8000500:	200a      	movs	r0, #10
  8000502:	f000 f86f 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000506:	bf00      	nop
@@ -584,120 +584,120 @@ int main(void)
 	  {
 	  	  case 0:
 	  	  {
-			  setNumberOnClock(0);
+			  setNumberOnClock(11);
  8000544:	463b      	mov	r3, r7
  8000546:	469c      	mov	ip, r3
- 8000548:	2000      	movs	r0, #0
+ 8000548:	200b      	movs	r0, #11
  800054a:	f000 f84b 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800054e:	e041      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 1:
 	  	  {
-			  setNumberOnClock(1);
+			  setNumberOnClock(0);
  8000550:	463b      	mov	r3, r7
  8000552:	469c      	mov	ip, r3
- 8000554:	2001      	movs	r0, #1
+ 8000554:	2000      	movs	r0, #0
  8000556:	f000 f845 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800055a:	e03b      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 2:
 	  	  {
-			  setNumberOnClock(2);
+			  setNumberOnClock(1);
  800055c:	463b      	mov	r3, r7
  800055e:	469c      	mov	ip, r3
- 8000560:	2002      	movs	r0, #2
+ 8000560:	2001      	movs	r0, #1
  8000562:	f000 f83f 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000566:	e035      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 3:
 	  	  {
-			  setNumberOnClock(3);
+			  setNumberOnClock(2);
  8000568:	463b      	mov	r3, r7
  800056a:	469c      	mov	ip, r3
- 800056c:	2003      	movs	r0, #3
+ 800056c:	2002      	movs	r0, #2
  800056e:	f000 f839 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000572:	e02f      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 4:
 	  	  {
-			  setNumberOnClock(4);
+			  setNumberOnClock(3);
  8000574:	463b      	mov	r3, r7
  8000576:	469c      	mov	ip, r3
- 8000578:	2004      	movs	r0, #4
+ 8000578:	2003      	movs	r0, #3
  800057a:	f000 f833 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800057e:	e029      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 5:
 	  	  {
-			  setNumberOnClock(5);
+			  setNumberOnClock(4);
  8000580:	463b      	mov	r3, r7
  8000582:	469c      	mov	ip, r3
- 8000584:	2005      	movs	r0, #5
+ 8000584:	2004      	movs	r0, #4
  8000586:	f000 f82d 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  800058a:	e023      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 6:
 	  	  {
-			  setNumberOnClock(6);
+			  setNumberOnClock(5);
  800058c:	463b      	mov	r3, r7
  800058e:	469c      	mov	ip, r3
- 8000590:	2006      	movs	r0, #6
+ 8000590:	2005      	movs	r0, #5
  8000592:	f000 f827 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  8000596:	e01d      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 7:
 	  	  {
-			  setNumberOnClock(7);
+			  setNumberOnClock(6);
  8000598:	463b      	mov	r3, r7
  800059a:	469c      	mov	ip, r3
- 800059c:	2007      	movs	r0, #7
+ 800059c:	2006      	movs	r0, #6
  800059e:	f000 f821 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80005a2:	e017      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 8:
 	  	  {
-			  setNumberOnClock(8);
+			  setNumberOnClock(7);
  80005a4:	463b      	mov	r3, r7
  80005a6:	469c      	mov	ip, r3
- 80005a8:	2008      	movs	r0, #8
+ 80005a8:	2007      	movs	r0, #7
  80005aa:	f000 f81b 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80005ae:	e011      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 9:
 	  	  {
-			  setNumberOnClock(9);
+			  setNumberOnClock(8);
  80005b0:	463b      	mov	r3, r7
  80005b2:	469c      	mov	ip, r3
- 80005b4:	2009      	movs	r0, #9
+ 80005b4:	2008      	movs	r0, #8
  80005b6:	f000 f815 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80005ba:	e00b      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 10:
 	  	  {
-			  setNumberOnClock(10);
+			  setNumberOnClock(9);
  80005bc:	463b      	mov	r3, r7
  80005be:	469c      	mov	ip, r3
- 80005c0:	200a      	movs	r0, #10
+ 80005c0:	2009      	movs	r0, #9
  80005c2:	f000 f80f 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80005c6:	e005      	b.n	80005d4 <main+0x464>
 	  	  }
 	  	  case 11:
 	  	  {
-			  setNumberOnClock(11);
+			  setNumberOnClock(10);
  80005c8:	463b      	mov	r3, r7
  80005ca:	469c      	mov	ip, r3
- 80005cc:	200b      	movs	r0, #11
+ 80005cc:	200a      	movs	r0, #10
  80005ce:	f000 f809 	bl	80005e4 <setNumberOnClock.5432>
 	  		  break;
  80005d2:	bf00      	nop
