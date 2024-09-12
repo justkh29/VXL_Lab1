@@ -98,11 +98,15 @@ int main(void)
   {
 	  HAL_GPIO_WritePin(GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin | LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin | LED_12_Pin , SET );
   }
+  void setNumberOnClock(int num)
+  {
+	  HAL_GPIO_WritePin(GPIOA, led_pin[num], RESET);
+  }
   int count = 0;
   while (1)
   {
-	  HAL_GPIO_WritePin(GPIOA , LED_1_Pin | LED_2_Pin | LED_3_Pin | LED_4_Pin | LED_5_Pin | LED_6_Pin | LED_7_Pin | LED_8_Pin | LED_9_Pin | LED_10_Pin | LED_11_Pin | LED_12_Pin , RESET );
-
+	  setNumberOnClock(4);
+	  setNumberOnClock(11);
 	  if (count >= 1)
 	  {
 		  clearAllClock();
