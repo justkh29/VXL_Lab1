@@ -93,12 +93,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   void display7SEG(int num, uint32_t GPIO_Pin)
   {
-	  char segNumber[10] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90};
-	  for (int i = 0; i < 7;i++)
-	  {
-		  HAL_GPIO_WritePin(GPIOB, GPIO_Pin << i, (segNumber[num] >> i) & 1);
-	  }
+      char segNumber[10] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90};
+
+      HAL_GPIO_WritePin(GPIOB, GPIO_Pin << 0, (segNumber[num] >> 0) & 1);
+      HAL_GPIO_WritePin(GPIOB, GPIO_Pin << 1, (segNumber[num] >> 1) & 1);
+      HAL_GPIO_WritePin(GPIOB, GPIO_Pin << 2, (segNumber[num] >> 2) & 1);
+      HAL_GPIO_WritePin(GPIOB, GPIO_Pin << 3, (segNumber[num] >> 3) & 1);
+      HAL_GPIO_WritePin(GPIOB, GPIO_Pin << 4, (segNumber[num] >> 4) & 1);
+      HAL_GPIO_WritePin(GPIOB, GPIO_Pin << 5, (segNumber[num] >> 5) & 1);
+      HAL_GPIO_WritePin(GPIOB, GPIO_Pin << 6, (segNumber[num] >> 6) & 1);
   }
+
   int countRed = 5, countYellow = 2, countGreen = 3, cross = 1;
   while (1)
   {
